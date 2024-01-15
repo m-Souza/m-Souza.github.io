@@ -3,20 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CVMS</title>
+    <title>CV.MS</title>
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <nav class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="d-flex fixed-top flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <img src="/assets/img/foto.png" alt="Foto sensacional del autor">
+                    <a href="/" class="d-flex align-items-center pb-1 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Marcos Souza</span>
+                    </a>
+                    <p class="d-block pb-3">Curriculum vitae</p>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start text-info bg-dark" id="menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi bi-house-fill"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi bi-clock-fill"></i> <span class="ms-1 d-none d-sm-inline">Experiencia</span> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi bi-mortarboard-fill"></i> <span class="ms-1 d-none d-sm-inline">Estudios</span> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi bi-file-earmark-zip-fill"></i> <span class="ms-1 d-none d-sm-inline">Certificaciones</span> </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi bi-bricks"></i> <span class="ms-1 d-none d-sm-inline">PORTAFOLIO</span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-auto p-0 m-0">
+                <div class="top-image"></div>
+                <div class="contenido">
+                    <section>
+                        <h3>Datos personales</h3>
+                        <p>Nombre: Marcos Souza</p>
+                        <p>Lugar de nacimiento: Campinas, SP - Brasil</p>
+                        <p>Fecha de nacimiento: 22 de julio de 1982</p>
+                    </section>
+            
+                    <section>
+                        <h3>Abstract</h3>
+                        <p>Marcos es coordinador BIM de la empresa SIRVE SA en Chile. Profesional con 18 años de experiencia
+                            actuando en el desarrollo de proyectos para la construcción de edificaciones, específicamente en las
+                            especialidades de arquitectura y estructuras.
+                            Actualmente es el Líder BIM de Estructuras del proyecto de Ampliación del Aeropuerto Internacional Jorge
+                            
+                            Chávez de Lima Perú. En el desarrollo de este proyecto trabajó en la coordinación con las demás especia-
+                            lidades, participando de sesiones ICE, manteniendo una relación cercana con los demás especialistas y el
+                            
+                            cliente, concomitantemente gestionando los trabajos de su equipo y de los subcontratos que participaron
+                            del diseño de las estructuras. Participó desde las etapas tempranas de asesoría al mandante, licitación,
+                            diseño y obra en modalidad Fast Track.</p>
+                    </section>
+            
+                    <section>
+                        <h3>Experiencia Profesional</h3>
+                        <ul>
+                            <li>
+                                <h5>BIM Coordinator, Arquitecto Senior - SIRVE S.A - Santiago, Chile</h5>
+                                <p>Junio 2019, actualidad - Responsable por el cumplimiento de estándares BIM de proyectos de gran enver-
+                                gadura. Modelación, desarrollo de planimetría y fichas de obra, cubicaciones, desarrollo de rutinas, control
+                                de parámetros y definición de estándares internos de proyectos de estructuras diseñados por la empresa.</p>
+                            </li>
+                            <li>
+                                <h5>BIM Coordinator, Arquitecto Senior - luis vidal + arquitectos - Santiago, Chile</h5>
+                                </p>Mayo 2018, Junio 2019 - Coordinador BIM del equipo de Dirección BIM en el diseño y coordinación de un
+                                proyecto hospitalario, soporte general de BIM a los demás proyectos de la oficina.</p>
+                            </li>
+            
+                            <li>
+                                <h5>Experto Lingüista - SIDI - Campinas, São Paulo</h5>
+                                </p>Septiembre 2017 a Enero 2018 - Contrato temporário - Soporte lingüístico en el desesarrollo y test de
+                                nuevos productos y tecnologias en un proyecto de NLP.</p>
+                            </li>
+                        </ul>
+                    </section>
 
-    </nav>
-    <section>
-        <h2>Experiencia</h2>
-    </section>
-    <section>
-        <h2>Educación</h2>
-    </section>
-    <footer></footer>
+                    <section>
+                        <h3>Estudios académicos</h3>
+                        <ul>
+                            <li>2023 - Desafio LAtam - Full Stack JavaScript - en curso</li>
+                            <li>2019 - Diplomado de Dirección BIM - U. Católica - Chile</li>
+                            <li>2017 - Introducción a las Ciencias de la Computación y programación en Python - MITx - Online</li>
+                            <li>2016 - Diplomado Visual Programming + BIM (Revit) - U. Adolfo Ibañez - Chile</li>
+                            <li>2014 - Diplomado en Project Management de Infraestruturas - U. Adolfo Ibañez- Chile</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Certificaciones</h3>
+                        <ul>
+                            <li>
+                                <h4>Autodesk Certified Professional</h4>
+                                <p>Revit Architecture</p>
+                                <p>Verificação emitida em set de 2017</p>
+                                <p>Código da credencial wdT3F-H9NX</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                
+            </main>
+            <footer class="container-fluid justify-content-center align-items-center">
+                <div>@Marcos Souza - Todos los derechos reservados</div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

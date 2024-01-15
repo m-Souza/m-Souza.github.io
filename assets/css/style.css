@@ -1,0 +1,28 @@
+footer{
+    background-color: rgb(235, 229, 221);
+    padding:  10px;
+    height: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    color: #479d92 !important;
+}
+
+main div.top-image {
+    background-image: url("/assets/img/bg-hero.jpg");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    width: 75%;
+    margin-left: 2rem;
+}
