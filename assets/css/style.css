@@ -16,7 +16,7 @@ footer{
 
 main div.top-image {
     background-image: url("/assets/img/bg-hero.jpg");
-    height: 250px;
+    height: 220px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,14 +27,19 @@ main div.top-image {
     margin-left: 2rem;
 }
 
+.img-portafolio{
+    width: 27.5%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
 .cover-content-container{
     position: relative;
-    width: 50%;
+    
 }
 
 .cover_img{
     opacity: 1;
-    display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -53,9 +58,8 @@ main div.top-image {
 }
 
 .text-details {
-    background-color: #04AA6D;
-    color: white;
-    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
     padding: 16px 32px;
   }
 
